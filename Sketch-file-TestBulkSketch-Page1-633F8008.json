@@ -95,7 +95,7 @@
     {
       "id": "BB739108-4C27-42C5-84C1-55B9B1631414",
       "name": "BB739108-4C27-42C5-84C1-55B9B1631414",
-      "text": "<p class=\"p1\" style=\"margin: 0.0px 0.0px 0.0px 0.0px; line-height: 16.0px; font: 14.0px 'SF Pro Text'; color: #393939;\"><span class=\"s1\" style=\"text-decoration: underline;\">Resend code</span></p>",
+      "text": "<p class=\"p1\" style=\"margin: 0.0px 0.0px 0.0px 0.0px; line-height: 16.0px; font: 14.0px 'SF Pro Text'; color: #393939;\"><span class=\"s1\" style=\"text-decoration: underline;\">Resend the code</span></p>",
       "layer": {
         "name": "_verification.resendCode",
         "paths": [
@@ -107,7 +107,7 @@
           "OTP/resend-code"
         ]
       },
-      "originalText": "Resend code"
+      "originalText": "Resend the code"
     }
   ]
 }
