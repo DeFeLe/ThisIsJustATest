@@ -1,0 +1,77 @@
+{
+  "smartling" : {
+    "translate_paths" : {
+      "path" : "*/text",
+      "key" : ["*/name"]
+    },
+    "variants_enabled" : "true",
+    "placeholder_format_custom" : ["NOSMARTLINGPLACEHOLDERS"],
+    "string_format_paths" : "html: *"
+  },
+  "sketch" : [
+  {
+    "id" : "17F1E169-A752-46C1-B786-7D3D265BA459",
+    "name" : "17F1E169-A752-46C1-B786-7D3D265BA459",
+    "text" : "Blive ved",
+    "layer" : {
+      "name" : "_button.getStarted",
+      "paths" : ["0.2.1 Bulk PM", "3b", "CTA/FOOTER", "Footer", "CTA/buttons", "Translated_content/button/continue"]
+    },
+    "originalText" : "Continue"
+  },
+
+  {
+    "id" : "A4C943B9-98A8-49D9-82BA-C18441FAD518",
+    "name" : "A4C943B9-98A8-49D9-82BA-C18441FAD518",
+    "text" : "Copyright © 2020 Mastercard. Alle rettigheder forbeholdes.",
+    "layer" : {
+      "name" : "_footer.copyright",
+      "paths" : ["0.2.1 Bulk PM", "3b", "footer/wire"]
+    },
+    "originalText" : "Copyright ©2020 Mastercard. All Rights Reserved."
+  },
+
+  {
+    "id" : "A4B73670-87DF-4DC1-8031-7570231ADA6A",
+    "name" : "A4B73670-87DF-4DC1-8031-7570231ADA6A",
+    "text" : "Gå tilbage til Springboard",
+    "layer" : {
+      "name" : "Go back to Springboa",
+      "paths" : ["0.2.1 Bulk PM", "notes", "Back Link"]
+    },
+    "originalText" : "Go back to Springboard"
+  },
+
+  {
+    "id" : "46DABE54-0E34-473B-9954-FF526B576D3D",
+    "name" : "46DABE54-0E34-473B-9954-FF526B576D3D",
+    "text" : "<p class=\"p1\" style=\"margin: 0.0px 0.0px 0.0px 0.0px; line-height: 32.0px; font: 24.0px 'SF Pro Text'; color: #101010;\"><b>Tjek dine beskeder</b></p>",
+    "layer" : {
+      "name" : "_verification.headings.email",
+      "path" : ["0.2.1 Bulk PM", "3b", "issuer/otp/wire", "Components/OTP", "OTP", "OTP/title"]
+    },
+    "originalText" : "Check your messages"
+  },
+
+  {
+    "id" : "FB2606F0-E524-48C4-A3DF-B17BB788FE28",
+    "name" : "FB2606F0-E524-48C4-A3DF-B17BB788FE28",
+    "text" : "<p class=\"p1\" style=\"margin: 0.0px 0.0px 0.0px 0.0px; line-height: 24.0px; font: 16.0px 'SF Pro Text'; color: #101010;\">Indtast koden {udsteder} sendt til<span class=\"Apple-converted-space\">                  </span>+1 (212) 123-4567.</p>",
+    "layer" : {
+      "name" : "_verification.subHeading",
+      "paths" : ["0.2.1 Bulk PM", "3b", "issuer/otp/wire", "Components/OTP", "OTP", "OTP/bodycopy"]
+    },
+    "originalText" : "Enter the code {Issuer} sent to                  +1 (212) 123-4567."
+  },
+
+  {
+    "id" : "BB739108-4C27-42C5-84C1-55B9B1631414",
+    "name" : "BB739108-4C27-42C5-84C1-55B9B1631414",
+    "text" : "<p class=\"p1\" style=\"margin: 0.0px 0.0px 0.0px 0.0px; line-height: 16.0px; font: 14.0px 'SF Pro Text'; color: #393939;\"><span class=\"s1\" style=\"text-decoration: underline;\">Send koden igen</span></p>",
+    "layer" : {
+      "name" : "_verification.resendCode",
+      "paths" : ["0.2.1 Bulk PM", "3b", "issuer/otp/wire", "Components/OTP", "OTP", "OTP/resend-code"]
+    },
+    "originalText" : "Resend the code"
+  }]
+}
